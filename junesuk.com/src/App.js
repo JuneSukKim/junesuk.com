@@ -7,7 +7,9 @@ import './App.css';
 
 import Main from "./component/main/main.js";
 import Diary from "./component/diary/diary";
+import Diarywrite from "./component/diary/diarywrite";
 import Memo from "./component/memo/memo";
+import Memowrite from "./component/memo/memowrite";
 import MY from "./component/My/myPage";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route path="/diary" element={<Diary />} />
             <Route path="/memo" element={<Memo />} />
             <Route path="/mypage" element={<MY />} />
+            <Route path="/memowrite" element={<Memowrite />} />
+            <Route path="/diarywrite" element={<Diarywrite />} />
 
           </Routes>
         </div>
